@@ -1,0 +1,17 @@
+package main
+
+import (
+	"fmt"
+	"strings"
+)
+
+func main() {
+	var print = fmt.Println
+	print(strings.Contains("MS~GO","MS"))
+	print(strings.Join([]string{"a", "b", "c"}, "~"))
+	print(strings.Count("ms~go go go","go"))
+	print(strings.EqualFold("s","s"))
+	print(strings.Fields("abc"))
+	//比较
+	print(strings.Compare("aaa","aaa"))
+	}
